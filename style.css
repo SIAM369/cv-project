@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(190, 199, 216);
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+	width: 999px;
+	margin: 0 auto;
+	background-color: skyblue;
+	padding: 21px;
+	height: 1590px;
+}
+
+header{
+
+}
+
+.profile-img{
+	height: 105px;
+	width: 93px;
+	border: 3px solid white;
+	border-radius: 50%;
+	float: left;
+}
+
+.bio{
+	float: left;
+	padding: 27px;
+}
+
+h1, h2, h3, h4, h5, h5{
+	color: darkmagenta;
+}
+
+.headr{
+	float: right;
+	padding: 30px;
+}
+
+.headr a{
+	text-decoration: none;
+	color: darkmagenta;
+	font-weight: bold;
+}
+
+.headr a:hover{
+	text-decoration: underline;
+	color:tomato;
+}
+
+.div-clr{
+	clear: both;
+}
+
+hr{
+	border: solid black 3px;
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+}
+
+#personal-section{
+
+}
+
+.content{
+
+}
+
+.left-div{
+	width: 30%; 
+	float: left;
+}
+
+.right-div{
+	width: 70%;
+	float: left;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.hr1{
+	border: solid black 1px;
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+}
+
+/*education*/
+
+.edu-left{
+	float: left;
+	width: 42%;
+}
+
+.edu-right{
+	float: left;
+	width: 42%;
+}
+
+/*bottom*/
+
+.bottom{
+	background-color: black;
+	text-align: center;
+	padding: 21px;
+	height: 45px;
+}
+
+.bottom a{
+	color: white;
+	text-decoration: none;
+	margin: 21px;
+}
+
+.bottom p{
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.bottom a:hover{
+	color: tomato;
+}
